@@ -1,0 +1,43 @@
+2025-06-14 17:35:24,197 - INFO - Sending prompt to LLM.
+2025-06-14 17:35:25,325 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 17:35:25,337 - INFO - Received LLM response.
+2025-06-14 17:35:25,337 - ERROR - JSON Decode Error: Expecting ',' delimiter: line 3 column 33 (char 44)
+2025-06-14 17:37:33,676 - INFO - Sending prompt to LLM...
+2025-06-14 17:37:35,055 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 17:37:35,055 - INFO - Received response from LLM
+2025-06-14 17:37:35,055 - WARNING - \U0001f50d Raw Model Output:
+{
+"data": [
+{"x": ["Australia and Oceania"], "y": [951410.5], "name": "Australia and Oceania", "type": "bar"},
+{"x": ["Central America and the Caribbean"], "y": [248406.36], "name": "Central America and the Caribbean", "type": "bar"},
+{"x": ["Europe"], "y": [224598.75], "name": "Europe", "type": "bar"},
+{"x": ["Sub-Saharan Africa"], "y": [243603.32], "name": "Sub-Saharan Africa", "type": "bar"}
+],
+"layout": {"title": {"text": "Profit by Region"},"xaxis": {"title": {"text": "Region"}},"yaxis": {"title": {"text": "Total Profit"}}}
+}
+2025-06-14 18:41:55,449 - INFO - Sending prompt to LLM...
+2025-06-14 18:41:58,317 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 18:41:58,325 - INFO - Received response from LLM
+2025-06-14 18:41:58,327 - WARNING - Raw Model Output:
+{
+"data": [
+{"x": ["Paper Title", "Journal Name", "Publication House", "Publication Year", "Dataset Details", "Algorithms / Models / Techniques implemented", "Research Gaps"], 
+"y": [1, 1, 1, 1, 1, 1, 1], 
+"type": "bar"
+}
+],
+"layout": {"title": "Bar Chart of Columns"}
+}
+2025-06-14 18:42:19,635 - INFO - Sending prompt to LLM...
+2025-06-14 18:42:20,329 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 18:42:20,329 - INFO - Received response from LLM
+2025-06-14 18:42:20,329 - WARNING - Raw Model Output:
+{
+"data": [
+{"x": ["Australia and Oceania"], "y": [951410.5], "type": "bar", "name": "Australia and Oceania"},
+{"x": ["Central America and the Caribbean"], "y": [248406.36], "type": "bar", "name": "Central America and the Caribbean"},
+{"x": ["Europe"], "y": [224598.75], "type": "bar", "name": "Europe"},
+{"x": ["Sub-Saharan Africa"], "y": [19525.82, 639077.5], "type": "bar", "name": "Sub-Saharan Africa"}
+],
+"layout": {"title": {"text": "Region-wise Profit"}}
+}
